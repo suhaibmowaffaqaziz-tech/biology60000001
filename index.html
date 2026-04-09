@@ -1,0 +1,91 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>منصة الشمس | الفصل الأول: الخلية</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <h1>منصة الشمس التعليمية</h1>
+      <p>الفصل الأول: الخلية</p>
+    </header>
+
+    <nav class="nav">
+      <button onclick="scrollToSection('intro')">المقدمة</button>
+      <button onclick="scrollToSection('history')">تطور الاكتشافات</button>
+      <button onclick="scrollToSection('ministerial')">الأسئلة الوزارية</button>
+    </nav>
+
+    <section id="intro" class="card">
+      <h2>1-1 المقدمة</h2>
+      <p>تعد الخلية الوحدة التركيبية لجميع الكائنات الحية، وبشكل عام هناك نوعين من الخلايا من حيث التركيب.</p>
+      <p><strong>النوع الأول: الخلية بدائية النواة Prokaryotic Cell</strong>، كما هو الحال في الخلية البكتيرية التي تفتقد الغلاف أو الغشاء النووي والعضيات الغشائية Membranous Organelles.</p>
+      <p><strong>النوع الثاني: الخلية حقيقية النواة Eukaryotic Cell</strong>، التي لها نواة واضحة محاطة بغلاف نووي وعضيات خلوية.</p>
+    </section>
+
+    <section id="history" class="card">
+      <h2>مراحل تطور الاكتشافات في مجال الخلية</h2>
+      <div class="timeline">
+        <div>1. لم تكن الخلية معروفة قبل قيام العالم الهولندي <strong>فان ليفنهوك</strong> بصنع مجهره وهو أول شخص استطاع أن يرى الخلية.</div>
+        <div>2. توصل العالم الإنجليزي <strong>روبرت هوك</strong> إلى نفس ملاحظات ليفنهوك، وهو أول شخص استخدم كلمة خلية Cell وعرّفها بأنها ردهة هوائية تشبه تجويف خلية شمع العسل.</div>
+        <div>3. اكتشف العالم الاسكتلندي <strong>روبرت براون</strong> عام 1831 نواة الخلية وقدّم وصفاً لها.</div>
+        <div>4. وصل العالم الألماني <strong>ماثياس شلايدن</strong> عام 1838 إلى أن جميع النباتات تتكون من خلايا.</div>
+        <div>5. اكتشف عالم الحيوان الألماني <strong>ثيودور شوان</strong> عام 1839 أن جميع الحيوانات تتكون من خلايا.</div>
+      </div>
+    </section>
+
+    <section id="ministerial" class="card">
+      <h2>(أنماط الأسئلة الوزارية)</h2>
+
+      <h3>عرف ما يأتي:</h3>
+      <ul>
+        <li><strong>الخلية:</strong> الوحدة الأساسية التركيبية والوظيفية لجميع الكائنات الحية.</li>
+        <li><strong>علم الخلية (Cytology):</strong> العلم الذي يختص بدراسة الخلايا.</li>
+        <li><strong>الخلية بدائية النواة:</strong> خلية تفتقد الغلاف النووي والعضيات الغشائية.</li>
+        <li><strong>الخلية حقيقية النواة:</strong> خلية لها نواة واضحة محاطة بغلاف نووي وعضيات خلوية.</li>
+      </ul>
+
+      <h3>قارن بين الخلية بدائية النواة والخلية حقيقية النواة:</h3>
+      <table>
+        <tr>
+          <th>وجه المقارنة</th>
+          <th>الخلية بدائية النواة</th>
+          <th>الخلية حقيقية النواة</th>
+        </tr>
+        <tr>
+          <td>النواة</td>
+          <td>تفتقد الغلاف النووي</td>
+          <td>لها نواة واضحة محاطة بغلاف نووي</td>
+        </tr>
+        <tr>
+          <td>العضيات</td>
+          <td>تفتقد العضيات الغشائية</td>
+          <td>تحتوي على عضيات خلوية</td>
+        </tr>
+      </table>
+
+      <h3>عين موقع وأهمية:</h3>
+      <p><strong>الغلاف النووي:</strong><br>
+      الموقع: يحيط بنواة الخلية حقيقية النواة.<br>
+      الأهمية: يفصل النواة عن السايتوبلازم، وهو من مميزات الخلية حقيقية النواة.</p>
+
+      <h3>املأ الفراغات:</h3>
+      <p>1. أول من استطاع أن يرى الخلية هو العالم الهولندي <strong>فان ليفنهوك</strong>.</p>
+      <p>2. أول من أطلق كلمة "خلية" هو العالم الإنجليزي <strong>روبرت هوك</strong>.</p>
+      <p>3. اكتشف العالم الاسكتلندي <strong>روبرت براون</strong> نواة الخلية.</p>
+
+      <h3>اختبر نفسك (اختر الإجابة):</h3>
+      <div class="quiz">
+        <p>الخلية التي تفتقد الغلاف النووي والعضيات الغشائية هي الخلية:</p>
+        <button onclick="checkAnswer(this,true)">بدائية النواة</button>
+        <button onclick="checkAnswer(this,false)">حقيقية النواة</button>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
